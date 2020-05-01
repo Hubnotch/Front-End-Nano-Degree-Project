@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #92bde7;
+    overflow-x: none;
+    height: 100vh;
+    width: 100%;
+    color: #FACEB4;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "page-header page-header page-header page-header page-header page-header page-header page-header page-header page-header page-header page-header"
+    "page-body page-body page-body page-body page-body page-body page-body page-body page-body page-body page-body page-body"
+    "footer footer footer footer footer footer footer footer footer footer footer footer " 
+     ;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a {
+    padding: 0.9rem 1.1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    color: rgba(250,206,180,0.85);
+}
+
+.nav-bar li:last-child {
+    margin-left: auto;
+}
+
+/*  Post card    */
+.post-card-list {
+    display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+	grid-gap: 20px;
+	align-items: stretch;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+}
+.post-card:hover {
+    border: 1px solid #ddd;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.post-card img {
+    max-width: 100%;
+}
+
+.post-card-details {
+  padding: 20px;
+}
+
+.btn {
+    padding: 1rem 1.9rem;
+    margin: 10px 10px 10px 0;
+    background-color: #faceb4;
+    border-radius: 50px;
+    color: rgb(240, 128, 128);
+    border: none;
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: rgba(250,206,180,0.5);
+    color:  rgb(240, 128, 128);
+}
+
+.post-card-details a {
+    text-decoration: none;
+}
+
+.page-header {
+    grid-area: page-header;
+    margin: 1.5rem 0;
+}
+
+.page-body {
+    grid-area: page-body;
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.3),
+                3px 4px 8px 0 rgba(161, 92, 92, 0.3),
+                3px 4px 8px 0 rgba(63, 153, 78, 0.3),
+                3px 4px 8px 0 rgba(133, 35, 172, 0.3);
+    padding: 1rem;
+}
+
+.blog-post-title {
+    padding: 16px 20px;
+    margin: 10px;
+}
+
+.page-footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 1rem 1.6rem;
+    text-align: center;
+    background: #dee;
+    margin: 2rem 0 0 0;
+}
+.page-footer a {
+    padding: 0.9rem 1.1rem;
+    text-decoration: none;
+    text-align: center;
+}

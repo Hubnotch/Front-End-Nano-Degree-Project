@@ -1,0 +1,23 @@
+First color choice
+hex: #6A36D9
+rgb: rgb(106,54,217)
+hex: #A993BF
+rgb: rgb(169,147,191)
+hex: #5B2A8C
+rgb: rgb(91,42,140)
+hex: #762EA6
+rgb: rgb(118,46,166)
+hex: #8836BF
+rgb: rgb(136,54,191)
+
+Second color choice
+hex: #D9D9D9
+rgb: rgb(217,217,217)
+hex: #D92B2B
+rgb: rgb(217,43,43)
+hex: #A67951
+rgb: rgb(166,121,81)
+hex: #435C73
+rgb: rgb(67,92,115)
+hex: #537FA6
+rgb: rgb(83,127,166)

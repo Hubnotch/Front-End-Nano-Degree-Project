@@ -1,0 +1,78 @@
+<section class="blog-post-card">
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="card-content">
+                    <h2 class="post-header">Why are you interested in this program?</h2>
+                    <p>I've always been facinated by the way computer works. The only super power any human...</p>
+                </div>
+                <a href="#"><button class="read-more-btn">More</button></a>
+            </section>
+
+            <section class="blog-post-card">
+
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
+
+            <section class="blog-post-card">
+
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
+            <section class="blog-post-card">
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
+            <section class="blog-post-card">
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
+
+            <section class="blog-post-card">
+
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
+
+            <section class="blog-post-card">
+
+                <figure>
+                    <img src="images/show-case-image-2.jpg" alt="blog-image">
+                </figure>
+                <div class="content">
+                    <h2 class="post-header">How do you feel about the udacity nano degree program?</h2>
+                    <p>I feel like i am on top of the world since i joined the udacity program...</p>
+                </div>
+                <button class="read-more-btn">More</button>
+            </section>
